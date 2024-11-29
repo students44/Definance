@@ -1,0 +1,681 @@
+@media screen and (max-width: 1199px){
+.toggler{
+	border: none !important;
+	font-size: 20px;
+	outline: none !important;
+}
+
+
+
+#myNav.Nav{
+	position: fixed;
+	top: 80px;
+	right: -100%;
+	overflow: scroll !important;
+	height: calc(100% - 80px);
+	background: #fff;
+	box-shadow: -10px 10px 20px -10px grey;
+	width: 400px;
+	z-index: 1000;
+}
+#myNav.Nav.show{
+	right: 0;
+}
+
+#myNav.Nav{
+	padding-top: 20px;
+}
+#myNav.Nav .navbar-left{
+	margin: 20px 0;
+}
+#myNav.Nav .navbar-left li{
+	display: block;
+	border-bottom: 1px solid lightgrey;
+}
+#myNav.Nav .navbar-left li a{
+	margin: 8px;
+	margin-left: 20px;
+	display: block;
+
+}
+.dropbtn{
+	margin: 8px ;
+	margin-left: 20px;
+	
+}
+#myNav.Nav .navbar-left li a.social-icon{
+	display: flex;
+}
+
+#myNav.Nav .navbar-right{
+	display: flex !important; 
+	justify-content: center;
+}
+#myNav.Nav .navbar-right li{
+	display: inline-block;
+	margin: 10px;
+}
+
+.dropdownMenu{
+	position: relative;
+	width: 100%;
+}
+.dropdownMenu a:first-child{
+	display: none;
+	border-bottom: none;
+}
+.dropdownMenu a{
+	border-bottom: 1px solid lightgrey;
+	margin-left: 0
+}
+}
+
+
+@media screen and (max-width: 767px){
+#myNav .menu-close .closer{
+	display: block;
+	font-size: 40px;
+	color: #666;
+	padding: 10px;
+	margin-right: 30px;
+	display: inline-block;
+	cursor: pointer;
+}
+/*
+===============================================
+	HEADER SECTION START
+===============================================
+*/
+
+
+	/*----- HEADER CONTENT START -----*/
+
+.header-content{
+	padding-top: 80px;
+	padding-bottom: 150px;
+	margin-bottom: 20px;
+}
+.header-content .header-text h1{
+	font-size: 36px;
+}
+.header-content .header-text h3{
+	font-size: 22px;
+
+}
+
+	/*----- HEADER CONTENT END -----*/
+/*
+===============================================
+	HEADER SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	JOIN SECTION START
+===============================================
+*/
+.join-section{
+	margin: 50px 0;
+}
+
+.join-section .join-content h4{
+	font-size: 18px;
+}
+
+/*
+===============================================
+	JOIN SECTION END
+===============================================
+*/
+/*
+===============================================
+	HYBRIDAND SECTION START
+===============================================
+*/
+
+.hybridand-section .hybrid-title h4{
+	font-size: 28px;
+}
+/*
+===============================================
+	HYBRIDAND SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	INCOME SECTION START
+===============================================
+*/
+.income-section{
+	margin: 50px 0;
+}
+
+.income-section .section-title h1{
+	font-size: 28px;
+}
+
+
+.income-section .top-farms-container h3{
+	font-size: 18px;
+	margin-left: 10px;
+
+}
+.income-section .top-farms-container .farm-box h6{
+	font-size: 10px;
+}
+.income-section .top-farms-container .farm-box b{
+	font-size: 12px;
+
+}
+.income-section .top-farms-container .farm-box p{
+	font-size: 13px;
+}
+
+
+.about-icome{
+	margin: 30px 0;
+}
+
+
+/*
+===============================================
+	INCOME SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	POST SECTION START
+===============================================
+*/
+.post-section {
+	margin: 10px 0;
+	padding: 40px 0;
+	background: #0b0c38;
+}
+.post-section .post-container{
+	margin: 10px 0;
+}
+.post-section .post-container h2{
+	font-size: 22px;
+}
+
+
+.brand-section .owl-nav .owl-prev{
+	position: absolute;
+	left: -30px;
+	
+}
+.brand-section .owl-nav .owl-next{
+	position: absolute;
+	right: -30px;
+}
+
+/*
+===============================================
+	POST SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	COMMUNITY SECTION START
+===============================================
+*/
+.community-section{
+	padding: 40px 0;
+	margin: 20px 0;
+}
+.community-section .community-content h1{
+	font-size: 28px;
+	font-weight: bold;
+	margin: 10px 0;
+
+}
+
+
+.community-card-container .community-card-content h6{
+	font-size: 11px;
+
+}
+.community-card-container .community-card-content b{
+	font-size: 13px;
+}
+.community-section .community-content .community-btn{
+	justify-content: center;
+}
+/*
+===============================================
+	COMMUNITY SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	 WALLET SECTION START
+===============================================
+*/
+.wallet-section{
+	padding: 100px 0;
+	background: #0b0c38;
+	clip-path: polygon(0 4%, 100% 0, 100% 98%, 0 100%);
+	
+}
+
+.wallet-section .section-title h1{
+	font-size: 28px;
+}
+
+/*
+===============================================
+	 WALLET SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	 CRYPTO SECTION START
+===============================================
+*/
+.crypto-section{
+	margin: 20px 0;
+	margin-bottom: -60px;
+	padding: 40px 0;
+}
+
+.crypto-section .section-title h1{
+	font-size: 28px;
+}
+
+/*
+===============================================
+	 CRYPTO SECTION END
+===============================================
+*/
+/*
+===============================================
+	NEWS SECTION START
+===============================================
+*/
+.news-section{
+	margin: 30px 0; 
+	margin-top: -50px;
+	padding: 10px;
+}
+
+.news-section .section-title h1{
+	font-size: 28px;
+}
+.news-section .section-title p{
+	font-size: 14px;
+	font-weight: 500;
+}
+.news-section .news-post{
+	position: relative;
+	margin-bottom: 50px;
+}
+
+
+
+.news-btn{
+	margin: 20px 0;
+}
+
+
+/*
+===============================================
+	NEWS SECTION END
+===============================================
+*/
+/*
+===============================================
+	HASHTAG SECTION START
+===============================================
+*/
+.hashtag-section{
+	margin: 60px 0;
+}
+.hashtag-section .section-tag h1{
+	font-size: 28px;
+	margin: 9px;
+}
+
+
+.hashtag-section .hashtag-btns{
+	margin-bottom: 20px;
+}
+
+
+/*
+===============================================
+	HASHTAG SECTION END
+===============================================
+*/
+
+
+}
+
+
+@media screen and (max-width: 575px){
+#myNav.Nav{
+	width: 100%;
+	overflow: scroll !important;
+}
+
+/*
+===============================================
+	HEADER SECTION START
+===============================================
+*/
+
+
+	/*----- HEADER CONTENT START -----*/
+
+.header-content{
+	padding-top: 40px;
+	padding-bottom: 150px;
+	margin-bottom: 20px;
+}
+.header-content .header-text h1{
+	font-size: 28px;
+}
+.header-content .header-text h3{
+	font-size: 20px;
+
+}
+.header-content .header-text p{
+	font-size: 12px;
+	/*----- HEADER CONTENT END -----*/
+}
+
+/*
+===============================================
+	HEADER SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	JOIN SECTION START
+===============================================
+*/
+.join-section{
+	margin: 50px 0;
+}
+
+.join-section .join-content h4{
+	font-size: 18px;
+}
+
+/*
+===============================================
+	JOIN SECTION END
+===============================================
+*/
+/*
+===============================================
+	HYBRIDAND SECTION START
+===============================================
+*/
+
+.hybridand-section .hybrid-title h4{
+	font-size: 24px;
+}
+.hybridand-section .hybrid-title p{
+	font-size: 13px;
+}
+/*
+===============================================
+	HYBRIDAND SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	INCOME SECTION START
+===============================================
+*/
+.br-left{
+	border-left: none;
+}
+.income-section{
+	margin: 0px 0;
+	margin-bottom: 50px;
+}
+.income-section .section-title{
+	margin: 10px 0;
+	margin-bottom: 30px;
+
+}
+
+.income-section .section-title h1{
+	font-size: 24px;
+}
+.income-section .section-title{
+	font-size: 13px;
+}
+
+
+.income-section .top-farms-container h3{
+	font-size: 18px;
+	margin-left: 10px;
+
+}
+.income-section .top-farms-container .farm-box{
+	margin: 10px 0;
+}
+.income-section .top-farms-container .farm-box h6{
+	font-size: 10px;
+}
+.income-section .top-farms-container .farm-box b{
+	font-size: 12px;
+
+}
+.income-section .top-farms-container .farm-box p{
+	font-size: 13px;
+}
+
+
+.about-icome{
+	margin: 30px 0;
+}
+
+
+/*
+===============================================
+	INCOME SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	POST SECTION START
+===============================================
+*/
+.post-section {
+	margin: 10px 0;
+	padding: 40px 0;
+	background: #0b0c38;
+}
+.post-section .post-container{
+	margin: 0px 0;
+}
+.post-section .post-container h2{
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+/*
+===============================================
+	POST SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	COMMUNITY SECTION START
+===============================================
+*/
+.community-section{
+	padding: 40px 0;
+	margin: 20px 0;
+}
+.community-section .community-content h1{
+	font-size: 24px;
+	font-weight: bold;
+	margin: 10px 0;
+
+}
+.community-section .community-content p{
+	font-size: 13px;
+}
+
+
+.community-card-container .community-card-content h6{
+	font-size: 11px;
+
+}
+.community-card-container .community-card-content b{
+	font-size: 13px;
+}
+/*
+===============================================
+	COMMUNITY SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	 WALLET SECTION START
+===============================================
+*/
+.wallet-section{
+	padding: 70px 0;
+	background: #0b0c38;
+	clip-path: polygon(0 4%, 100% 0, 100% 98%, 0 100%);
+	
+}
+
+.wallet-section .section-title h1{
+	font-size: 24px;
+}
+.wallet-section h4{
+	font-size: 17px;
+}
+.wallet-section p{
+	font-size: 13px;
+}
+
+/*
+===============================================
+	 WALLET SECTION END
+===============================================
+*/
+
+/*
+===============================================
+	 CRYPTO SECTION START
+===============================================
+*/
+.crypto-section{
+	margin: 20px 0;
+	margin-bottom: -50px;
+	padding: 40px 0;
+}
+
+.crypto-section .section-title h1{
+	font-size: 24px;
+}
+.crypto-section .section-title p{
+	font-size: 13px;
+}
+/*
+===============================================
+	 CRYPTO SECTION END
+===============================================
+*/
+/*
+===============================================
+	NEWS SECTION START
+===============================================
+*/
+.news-section{
+	margin: 30px 0; 
+	margin-top: -30px;
+	padding: 10px;
+}
+.news-section .section-title{
+	margin: 10px 0;
+}
+.news-section .section-title h1{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.news-section .section-title p{
+	font-size: 13px;
+	font-weight: 500;
+}
+.news-section .news-post{
+	position: relative;
+	margin-bottom: 70px;
+}
+
+.news-section .news-post .news-post-text span{
+	font-size: 10px;
+}
+.news-section .news-post .news-post-text p{
+	font-size: 12px;
+}
+
+.sub-news-post{
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.sub-news-post .news-post-text span{
+	font-size: 10px;
+}
+.sub-news-post .news-post-text p{
+	margin-bottom: 0;
+	font-size: 12px;
+	font-weight: 400;
+
+}
+
+.news-btn{
+	margin: 20px 0;
+}
+
+
+/*
+===============================================
+	NEWS SECTION END
+===============================================
+*/
+/*
+===============================================
+	HASHTAG SECTION START
+===============================================
+*/
+.hashtag-section{
+	margin: 60px 0;
+}
+.hashtag-section .section-tag h1{
+	font-size: 24px;
+	margin: 9px;
+}
+
+
+.hashtag-section .hashtag-btns{
+	margin-bottom: 20px;
+}
+
+
+/*
+===============================================
+	HASHTAG SECTION END
+===============================================
+*/
+}
